@@ -33,7 +33,8 @@ conn = st.experimental_connection(
     user=USER,
     password=PASSWORD,
     warehouse="COMPUTE_WH",
-    database="CYBERSYN_FINANCIAL__ECONOMIC_ESSENTIALS",
+    #database="CYBERSYN_FINANCIAL__ECONOMIC_ESSENTIALS",
+    database="FINANCIAL__ECONOMIC_ESSENTIALS",
     schema="cybersyn",
     client_session_keep_alive = True
 )
